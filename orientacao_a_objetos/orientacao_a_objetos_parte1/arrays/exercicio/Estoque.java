@@ -5,7 +5,7 @@ public class Estoque {
         System.out.println("\nProdutos em estoque");
         System.out.println("---------------------");
         for (int i = 0 ; i < produtos.length; i++){
-            produtos[i].descrever();
+            produtos[i].descrever(); // sla
         }
     }
 }
